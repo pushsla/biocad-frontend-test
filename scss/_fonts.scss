@@ -1,0 +1,14 @@
+@font-face{
+    font-family: "TT Norm Regular";
+    src: url("/fonts/TTNorms/TTNorms-Regular.woff2") format("woff2"),
+         url("/fonts/TTNorms/TTNorms-Regular.woff") format("woff");
+}
+
+@font-face{
+    font-family: "TT Norm Medium";
+    src: url("/fonts/TTNorms/TTNorms-Medium.woff2") format("woff2"),
+         url("/fonts/TTNorms/TTNorms-Medium.woff") format("woff");
+}
+
+$font_family_main: "TT Norm Regular", sans-serif;
+$font_family_med: "TT Norm Medium", sans-serif;
